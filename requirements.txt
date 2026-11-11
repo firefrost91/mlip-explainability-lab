@@ -6,3 +6,4 @@ scikit-image==0.22.0
 scikit-learn==1.2.2
 tensorflow<2.15.0
 shap==0.44.1
+click

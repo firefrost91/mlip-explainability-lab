@@ -31,9 +31,12 @@ Clone [this](https://github.com/nikitachaudharicodes/mlip-explainability-lab) re
 ### Install Dependencies
 
 For this assignment, make sure you have the required packages installed.
+
+**Use Python 3.9 to 3.11.** The pinned versions (`tensorflow<2.15`, `numpy==1.23.5`) do not install on Python 3.12 or newer. For example:
 ```
+conda create -n lab10 python=3.11
+conda activate lab10
 pip install -r requirements.txt
-pip install shap
 ```
 _(If there are any major unsolvable issues prefer running this notebook on Google Colaboratory)_
 
